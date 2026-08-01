@@ -1,7 +1,7 @@
+streamlit==1.43.2
 pandas==2.2.2
-huggingface_hub==0.32.63
-streamlit==1.43.24
-joblib==1.5.15
-scikit-learn==1.6.06
-xgboost==2.1.47
+joblib==1.5.1
+scikit-learn==1.6.0
+xgboost==2.1.4
+huggingface_hub==0.32.6
 mlflow==3.0.1
