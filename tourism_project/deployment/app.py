@@ -2,6 +2,15 @@ import streamlit as st
 import pandas as pd
 from huggingface_hub import hf_hub_download
 import joblib
+# ==================================
+# Streamlit UI
+# ==================================
+
+st.set_page_config(
+    page_title="Tourism Package Prediction",
+    page_icon="✈️",
+    layout="wide"
+)
 
 # ==================================
 # Load Model from Hugging Face
@@ -17,15 +26,7 @@ def load_model():
 
 model = load_model()
 
-# ==================================
-# Streamlit UI
-# ==================================
 
-st.set_page_config(
-    page_title="Tourism Package Prediction",
-    page_icon="✈️",
-    layout="wide"
-)
 
 st.title("✈️ MLOps - Tourism Package Purchase Prediction")
 
